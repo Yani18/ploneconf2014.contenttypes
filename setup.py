@@ -26,8 +26,8 @@ setup(name='ploneconf2014.contenttypes',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'z3c.jbot',
           # -*- Extra requirements: -*-
+          'plone.api',
       ],
       extras_require={
         'test': ['plone.app.testing'],
